@@ -6,6 +6,15 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="script/nav.css" />
     <link rel="stylesheet" href="script/header.css" />
+    <link rel="stylesheet" href="script/banner.css" />
+    <!-- font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- daisyui cdn link -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@5"
@@ -15,6 +24,39 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <h1>Hello</h1>
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+      <nav class="nav">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Skill</a>
+        <a href="#">Project</a>
+        <a href="#">Resume</a>
+        <a href="#">Contact Info</a>
+      </nav>
+    </header>
+    <!-- banner section -->
+    <section class="banner">
+      <div class="home-content">
+        <h3>Hello It's Me</h3>
+        <h1>Pollob Debnath</h1>
+        <h3>And I am a</h3>
+        <p>
+          I ' am a Web Developer with extensive experience over 2 years. <br />
+          expertise is to create a website.
+        </p>
+        <div class="social-icon">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <a href="#" class="btn-about">More About Me</a>
+      </div>
+      <div class="banner-image">
+        <img src="../assets/me.png" alt="Pollob Debnath" />
+      </div>
+    </section>
   </body>
 </html>
