@@ -9,15 +9,14 @@
     display: flex;
     align-items: center;
     padding: 70px 10% 0;
-    background-color: #000000; 
-
+     background-color: #000000; 
 }
 .banner-image img {
-    width: 400px;        /* Adjust size */
-    height: 400px;       /* Make it square to form a perfect circle */
-    border-radius: 50%;  /* This makes it a circle */
-    object-fit: cover;   /* Ensures image scales without distortion */
-    border: 3px solid #7C3AED; /* Optional border color */
+    width: 400px;        
+    height: 400px;       
+    border-radius: 50%;  
+    object-fit: cover;   
+    border: 3px solid #7C3AED; 
 }
 .home-content{
     max-width: 600px;
@@ -25,20 +24,31 @@
 .home-content h3{
     font-size: 32px;
     font-weight: 700;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: .7s;
 }
 .home-content h3 span{
     color: #0ef;
 }
 .home-content h3:nth-of-type(2){
     margin-bottom: 30px;
+    animation: slideTop 1s ease forwards;
+    animation-delay: .7s;
 }
 .home-content h1{
     font-size: 56px;
     font-weight: 700;
     margin: -3px 0;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 1s;
 }
 .home-content p{
     font-size: 20px;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 1s;
 }
 .social-icon a{
     display: inline-flex;
@@ -52,6 +62,10 @@
     font-size: 20px;
     color: #0ef;
     text-decoration: none;
+    transition: .5s ease;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: calc(.2s*var(--i));
     margin: 30px 15px 30px 0;
 }
 .social-icon a:hover{
@@ -69,6 +83,12 @@
     letter-spacing: 1px;
     text-decoration: none;
     font-weight: 600;
+    opacity: 0;
+    animation: slideTop 0.9s ease forwards;
+    animation-delay: 2s;
+    box-shadow: 0 0 5px #0ef,
+    0 0 25px #e0f;
+
 }
 .btn-about:hover{
     box-shadow: 0 0 5px cyan,
