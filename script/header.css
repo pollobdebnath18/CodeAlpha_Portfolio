@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
     font-family: 'poppins','sans-serif';
 }
 body{
@@ -13,7 +14,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 10%;
+    padding: 20px 8%;
     background: #051129;
     display: flex;
     justify-content: space-between;

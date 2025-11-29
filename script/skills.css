@@ -5,19 +5,12 @@
   align-items: flex-start; 
   gap: 30px;  
   flex-wrap: wrap; 
+  padding: 20px 4%;
  }
-  /* section{
-    display: flex;
-    flex-wrap: wrap;
-  } */
-
 .container1{
     flex: 1;
     min-width: 350px;
-    /* width: 600px; */
-    /* height: 500px; */
     padding: 75px 90px;
-    /* margin-left: 120px; */
     margin: 0;
 }
 .heading1{
@@ -240,7 +233,9 @@
 }
 
 /* Projects Section */
-
+.project-section{
+    padding: 20px 6%;
+}
 .main-text{
     padding-top: 110px;
     margin-top: 100px;
@@ -258,6 +253,7 @@
 .portfolio-content{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(359px,auto));
+    gap: 15px;
 }
 .row{
     position: relative;

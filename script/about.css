@@ -6,7 +6,7 @@
     border: 3px solid #7C3AED; 
 }
 .about{
-    padding: 20px 10%;
+    padding: 20px 8%;
     margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
