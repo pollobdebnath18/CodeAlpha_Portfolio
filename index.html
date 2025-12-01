@@ -40,18 +40,25 @@
         </a>
       </div>
       <nav class="nav">
-        <a href="#home" style="--i: 1" class="active">Home</a>
-        <a href="#about" style="--i: 2">About</a>
-        <a href="#skills" style="--i: 3">Skill</a>
-        <a href="#project" style="--i: 4">Project</a>
-        <a href="#" style="--i: 5">Portfolio</a>
-        <a href="#contact" style="--i: 6">Contact Info</a>
+        <ul id="sidemenu">
+          <a href="#home" style="--i: 1" class="active">Home</a>
+          <a href="#about" style="--i: 2">About</a>
+          <a href="#skills1" style="--i: 3">Skill</a>
+          <a href="#services" style="--i: 4">Services</a>
+          <a href="#project" style="--i: 5">Portfolio</a>
+          <a href="#contact" style="--i: 6">Contact Info</a>
+          <i
+            class="fa-regular fa-circle-xmark no cross"
+            onclick="closeMenu()"
+          ></i>
+        </ul>
+        <i class="fa-solid fa-list no moremenu" onclick="openMenu()"></i>
       </nav>
     </header>
     <!-- banner section -->
     <section class="banner" id="home">
       <div class="home-content">
-        <h3>Hello It's Me</h3>
+        <h3 class="hello">Hello It's Me</h3>
         <h1>Pollob Debnath</h1>
         <h3>And I' am a <span class="text"></span></h3>
         <p>
@@ -245,7 +252,7 @@
       </div>
     </section>
     <!-- Skills Section -->
-    <section class="sec-skill" id="skills">
+    <section class="sec-skill" id="skills1">
       <div class="skill-h1">
         <h1 class="sub-title">My <span>Skills</span></h1>
       </div>
@@ -358,7 +365,7 @@
               </div>
             </div>
             <div class="row">
-              <img src="assets/injury.webp" alt="" />
+              <img src="assets/injury1.jpg" alt="" />
               <div class="layer">
                 <h5>Player Injury Prediction</h5>
                 <p>
@@ -425,7 +432,8 @@
           <h2>Contact <span>Me</span></h2>
           <h4>Let's Work Together</h4>
           <p>
-            Share your ideas or plans with me, <br>and I'll help bring it to life.
+            Share your ideas or plans with me, <br />and I'll help bring it to
+            life.
           </p>
           <div class="contact-list">
             <li>
@@ -450,16 +458,19 @@
               ><i class="fa-brands fa-github"></i
             ></a>
           </div>
-          <a
-            href="assets/Pollob(resume).pdf" Download
-            class="btn-about"
+          <a href="assets/Pollob(resume).pdf" download class="btn-about"
             >Download Resume</a
           >
         </div>
         <div class="contact-form">
-          <form action="">
-            <input type="" placeholder="Your Name" required />
-            <input type="email" placeholder="Your Email" required />
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required />
+            <input
+              type="email"
+              name="Email"
+              placeholder="Your Email"
+              required
+            />
             <textarea
               name="Message"
               id=""
@@ -468,8 +479,12 @@
               placeholder="Your Message"
               required
             ></textarea>
-            <input type="submit" value="submit" class="submit btn-about" />
+            <div class="submit-form1">
+               <input type="submit" value="submit" class="submit btn-about" /> 
+               <span id="msg"></span>
+            </div>
           </form>
+          
         </div>
       </div>
     </section>
