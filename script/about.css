@@ -140,6 +140,13 @@
     margin-top: 20px;
     display: inline-block;
  }
+.service-item h2 {
+  line-height: 1.3;
+  padding-top: 2px;
+  font-size: 1.5rem; 
+  
+}
+
  .more{
     display: inline-block;
     padding: 12px 28px;
