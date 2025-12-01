@@ -82,22 +82,125 @@
     </section>
     <!-- About -->
     <section class="about" id="about">
-      <div class="about-img">
-        <img class="img-about" src="assets/me.png" alt="" />
-      </div>
-      <div class="about-text">
-        <h2>About <span>Me</span></h2>
-        <h4>Frontend Developer</h4>
-        <p>
-          I am a passionate Frontend Developer focused on building modern,
-          responsive, and user-friendly web applications. I specialize in HTML,
-          CSS, JavaScript, and frameworks like React to create seamless user
-          experiences. I enjoy translating design ideas into functional
-          interfaces and optimizing websites for performance. Continuously
-          learning, I stay updated with the latest trends in frontend
-          development to deliver clean and efficient code.
-        </p>
-        <a href="#" class="btn-about">More About Me</a>
+      <div class="about-content">
+        <div class="about-img">
+          <img class="img-about" src="assets/me.png" alt="" />
+        </div>
+        <div class="about-text">
+          <h2>About <span>Me</span></h2>
+          <p>
+            I am a passionate Frontend Developer focused on building modern,
+            responsive, and user-friendly web applications. I specialize in
+            HTML, CSS, JavaScript, and frameworks like React to create seamless
+            user experiences.
+          </p>
+          <div class="tab-title">
+            <div class="tab-link active-link" onclick="TabOpen('skills')">
+              Skills
+            </div>
+            <div class="tab-link" onclick="TabOpen('experience')">
+              Experience
+            </div>
+            <div class="tab-link" onclick="TabOpen('education')">Education</div>
+            <div class="tab-link" onclick="TabOpen('future')">Future Goal</div>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li>
+                <span>Programming Languages</span> <br />
+                C , C++ , Python , Java , JavaScript , PHP
+              </li>
+              <li>
+                <span>Frontend Development</span> <br />
+                HTML , CSS , Tailwind CSS , JavaScript — Responsive Website
+                Design
+              </li>
+
+              <li>
+                <span>Machine Learning</span> <br />
+                Python , NumPy , Pandas — Data Preprocessing & Models
+              </li>
+
+              <li>
+                <span>Tools & Technologies</span> <br />
+                Git , GitHub , VS Code , Android Studio
+              </li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li>
+                <span>Frontend Development Intern – CodeAlpha</span><br />
+                Completed real-world frontend tasks including image gallery,
+                responsive UI design, JavaScript interaction, and GitHub project
+                deployment.
+              </li>
+
+              <li>
+                <span>Machine Learning Intern – Codveda Technologies</span
+                ><br />
+                Worked on data preprocessing, model development, and evaluation
+                using Python and machine learning algorithms.
+              </li>
+              <li>
+                <span>Competitive Programmer</span><br />
+                Solved 1300+ problems on platforms including Codeforces,
+                LeetCode, and CodeChef. Participated in 200+ online contests and
+                10+ onsite competitions, building strong skills in algorithms,
+                data structures, and problem-solving.
+              </li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="education">
+            <ul>
+              <li>
+                <span>B.Sc. in Computer Science & Engineering</span> <br />
+                Leading University, Sylhet &nbsp; | &nbsp; May 2022 – May 2026
+                <br />
+                CGPA : 3.34 / 4.00
+              </li>
+
+              <li>
+                <span>Higher Secondary Certificate (HSC)</span> <br />
+                Brindaban Govt. College, Habiganj &nbsp; | &nbsp; 2018 – 2020
+                <br />
+                GPA : 4.92 / 5.00
+              </li>
+
+              <li>
+                <span>Secondary School Certificate (SSC)</span> <br />
+                Shahjahanpur High School &nbsp; | &nbsp; 2012 – 2018 <br />
+                Science Group <br />
+                GPA : 4.83 / 5.00
+              </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="future">
+            <ul>
+              <li>
+                <span>Machine Learning Enthusiast</span><br />
+                I am passionate about exploring and building projects in Machine
+                Learning to gain hands-on experience with AI algorithms and
+                real-world applications.
+              </li>
+              <li>
+                <span>Aspiring Full-Stack Software Engineer</span><br />
+                Interested in developing end-to-end software solutions including
+                frontend, backend, and database management.
+              </li>
+              <li>
+                <span>Algorithm & Problem-Solving Focus</span><br />
+                Dedicated to improving algorithms, data structures, and
+                analytical thinking through consistent coding practice and
+                competitive programming.
+              </li>
+            </ul>
+          </div>
+
+          <!-- <a href="#" class="btn-about">More About Me</a> -->
+        </div>
       </div>
     </section>
     <!-- Services -->
