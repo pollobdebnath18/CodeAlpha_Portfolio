@@ -1,4 +1,4 @@
-![My Portfolio UI](https://github.com/pollobdebnath18/CodeAlpha_Portfolio/blob/762027b5dac1a0166c7419cc00da773cca6683c5/assets/portfolio.png)
+![My Portfolio UI](https://github.com/pollobdebnath18/CodeAlpha_Portfolio/blob/c5c0b02c72c5bc9d4898408ec5fddc499e6d82c9/assets/pollob%20(2).png)
 
 # 🌌 CodeAlpha Portfolio
 
