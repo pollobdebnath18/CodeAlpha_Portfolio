@@ -314,7 +314,8 @@ nav .no {
     font-size: 20px;
   }
   .home-content .hello {
-    padding-top: 80px;
+    /* padding-top: 80px; */
+    font-size: 20px;
   }
   .img-about {
     display: none;
