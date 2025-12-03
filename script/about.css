@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 80px 5%;
+  padding: 80px 6%;
 }
 .about-img {
   flex-basis: 35%;
@@ -63,7 +63,7 @@
   border: 3px solid #7c3aed;
 }
 
-/* Service section */
+/* -----------------------------Services section------------------------ */
 .services {
   color: aliceblue;
   font-size: 20px;

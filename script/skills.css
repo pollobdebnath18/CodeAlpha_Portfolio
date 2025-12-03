@@ -1,6 +1,6 @@
-/* modify Skill section */
+/* -------------------Skill section--------------- */
 .sec-skill {
-  padding: 20px 8%;
+  padding: 20px 6%;
 }
 .sub-title {
   font-size: 50px;
@@ -28,7 +28,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  transition: transform 0.3s, background 0.3s;
+  transition: transform 0.5s, background 0.5s;
   height: 180px;
 }
 
@@ -64,7 +64,7 @@
   }
 }
 
-/* Projects Section */
+/* ---------------------------Project section---------------------- */
 .project-section {
   padding: 20px 8%;
 }
@@ -252,15 +252,15 @@ form textarea {
   width: 200px;
   font-size: 18px;
 }
-#msg{
-    color: #61b752;
-    margin-top: 20px;
-    margin-left:5px;
-    display: block;
+#msg {
+  color: #61b752;
+  margin-top: 20px;
+  margin-left: 5px;
+  display: block;
 }
-.submit-form1{
-    display: flex;
-    gap: 30px;
+.submit-form1 {
+  display: flex;
+  gap: 30px;
 }
 /* -------------------------------Responsive----------------------------------- */
 nav .no {
@@ -313,10 +313,10 @@ nav .no {
     padding-top: 30px;
     font-size: 20px;
   }
-  .home-content .hello{
+  .home-content .hello {
     padding-top: 80px;
   }
-  .img-about{
+  .img-about {
     display: none;
   }
   /* ---------about-------- */
