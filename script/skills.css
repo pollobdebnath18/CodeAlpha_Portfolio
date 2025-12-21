@@ -1,7 +1,7 @@
 /* -------------------Skill section--------------- */
 .sec-skill {
   padding: 20px 6%;
-  padding-top: 160px;
+  padding-top: 220px;
   padding-bottom: 150px;
 }
 .sub-title {
@@ -389,6 +389,19 @@ nav .no {
     grid-template-columns: repeat(1, 1fr);
     gap: 40px;
     padding: 15px;
+  }
+  .layer i {
+    color: #ff004f;
+    margin-top: 1px;
+    margin-bottom:60px;
+    font-size: 20px;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
   }
   /* -----------Contact --------- */
   .contact-section {

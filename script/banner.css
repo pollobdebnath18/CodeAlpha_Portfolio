@@ -91,7 +91,7 @@
   animation-delay: 2s;
   box-shadow: 0 0 5px #0ef, 0 0 25px #e0f;
 }
-.btn-about:hover {
+/* .btn-about:hover {
   box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan,
     0 0 250px cyan;
-}
+} */
