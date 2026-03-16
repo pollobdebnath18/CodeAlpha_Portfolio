@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -59,13 +59,15 @@
     <section class="banner" id="home">
       <div class="home-content">
         <h3 class="hello">Hello It's Me</h3>
-        <h1>Pollob Debnath</h1>
-        <h3>And I' am a <span class="text"></span></h3>
+        <h1 class="text-center sm:text-left">Pollob Debnath</h1>
+        <h3 class="text-center sm:text-left">
+          And I' am a <span class="text"></span>
+        </h3>
         <p>
           I am a Web Developer with over 2 years of experience, specializing in
           creating modern, responsive, and user-friendly websites.
         </p>
-        <div class="social-icon">
+        <div class="social-icon text-center sm:text-left">
           <a href="https://www.facebook.com/" style="--i: 7"
             ><i class="fa-brands fa-facebook"></i
           ></a>
@@ -81,7 +83,11 @@
             ><i class="fa-brands fa-github"></i
           ></a>
         </div>
-        <a href="assets/Pollob(Resume).pdf" class="btn-about">More About Me</a>
+        <div class="flex justify-center sm:justify-start">
+          <a href="assets/Pollob(Resume).pdf" class="btn-about">
+            More About Me
+          </a>
+        </div>
       </div>
       <div class="banner-image">
         <img class="img-about" src="assets/pollob.jpg" alt="Pollob Debnath" />
@@ -115,7 +121,7 @@
             <ul>
               <li>
                 <span>Programming Languages</span> <br />
-                C , C++ , Python , Java , JavaScript , PHP
+                C , C++ , Python , Java , PHP
               </li>
               <li>
                 <span>Frontend Development</span> <br />
@@ -130,7 +136,7 @@
 
               <li>
                 <span>Tools & Technologies</span> <br />
-                Git , GitHub , VS Code , Android Studio
+                Git , GitHub , VS Code , Netlify , Android Studio
               </li>
             </ul>
           </div>
@@ -152,7 +158,7 @@
               </li>
               <li>
                 <span>Competitive Programmer</span><br />
-                Solved 1300+ problems on platforms including Codeforces,
+                Solved 1500+ problems on platforms including Codeforces,
                 LeetCode, and CodeChef. Participated in 200+ online contests and
                 10+ onsite competitions, building strong skills in algorithms,
                 data structures, and problem-solving.
@@ -166,7 +172,7 @@
                 <span>B.Sc. in Computer Science & Engineering</span> <br />
                 Leading University, Sylhet &nbsp; | &nbsp; May 2022 – May 2026
                 <br />
-                CGPA : 3.34 / 4.00
+                CGPA : 3.40 / 4.00
               </li>
 
               <li>
@@ -227,6 +233,18 @@
               </p>
               <a href="#" class="more">Learn More</a>
             </div>
+            <!-- MERN Stack Developer -->
+            <div class="service-item">
+              <i class="fa-brands fa-node-js" style="color: #00eeff"></i>
+              <h2>MERN Stack Developer</h2>
+              <p>
+                Building full-stack web applications using MongoDB, Express.js,
+                React, and Node.js. Experienced in creating responsive user
+                interfaces, REST APIs, authentication systems, and dynamic
+                database-driven applications.
+              </p>
+              <a href="#" class="more">Learn More</a>
+            </div>
             <!-- Backend Development -->
             <div class="service-item">
               <i class="fa-solid fa-server" style="color: #00eeff"></i>
@@ -235,17 +253,6 @@
                 Developing secure and scalable backend APIs using Node.js and
                 Express.js. Experience with databases like PostgreSQL and
                 MongoDB for data management.
-              </p>
-              <a href="#" class="more">Learn More</a>
-            </div>
-            <!-- Machine Learning / AI -->
-            <div class="service-item">
-              <i class="fa-solid fa-robot" style="color: #00eeff"></i>
-              <h2>Machine Learning</h2>
-              <p>
-                Creating AI/ML models using Python, scikit-learn, and pandas for
-                predictive analysis, data preprocessing, and automation
-                projects.
               </p>
               <a href="#" class="more">Learn More</a>
             </div>
@@ -357,8 +364,7 @@
                   <strong>Tools Used:</strong> React Native, Node.js (Express),
                   PostgreSQL, Prisma ORM
                 </p>
-                <a
-                  href="https://github.com/pollobdebnath18/ConnectArena-with-React-Native"
+                <a href="https://github.com/pollobdebnath18/ConnectArena"
                   ><i
                     class="fa-solid fa-arrow-up-right-from-square"
                     style="color: #8b0000"
